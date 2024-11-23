@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Personal Data</title>
+    </head>
+    <body>
+            <fieldset style="background-color: red;">
+                <legend style="background-color: blue;">Personal Data</legend>
+                <form>
+                    <fieldset style="background-color: yellow;">
+                        <legend height="100px" style="background-color: aquamarine;"><h6>Your Name</h6></legend>
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <label for="fname">First name</label>
+                                    </td>
+                                    <td></td>
+                                    <td>
+                                        <label for="fname">:</label>
+                                    </td>
+                                    <td></td>
+                                    <td>
+                                        <input type="text" id="fname" name="fname" placeholder="Ex.Mohammed" autofocus required>
+                                    </td>
+                                    
+                                </tr>
+                                <tr></tr>
+                                    <td>
+                                        <label for="sname">Second name</label>
+                                    </td>
+                                    <td></td>
+                                    <td>
+                                        <label for="sname">:</label>
+                                    </td>
+                                    <td></td>
+                                    <td>
+                                        <input type="text" id="sname" name="sname" placeholder="Ex.Ashraf" required>
+                                    </td>
+                                    
+                                </tr>
+                            </tbody>
+                        </table>
+                    </fieldset>
+                    <br>
+                    <br>
+                    <br>
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <strong><label for="phone">Your phone</label></strong>
+                                </td>
+                                <td></td>
+                                <td>
+                                    <strong><label for="phone">:</label></strong>
+                                </td>
+                                <td></td>
+                                <td>
+                                    <input type="number" id="phone" name="phone" required>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <strong><label for="mail">Email</label></strong>
+                                </td>
+                                <td></td>
+                                <td>
+                                    <strong><label for="mail">:</label></strong>
+                                </td>
+                                <td></td>
+                                <td>
+                                    <input type="email" id="mail" name="mail" required>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <strong><label for="pass">Password</label></strong>
+                                </td>
+                                <td></td>
+                                <td>
+                                    <strong><label for="pass">:</label></strong>
+                                </td>
+                                <td></td>
+                                <td>
+                                    <input type="password" id="pass" name="pass" required>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <strong><label for="rePass">Re password</label></strong>
+                                </td>
+                                <td></td>
+                                <td>
+                                    <strong><label for="rePass">:</label></strong>
+                                </td>
+                                <td></td>
+                                <td>
+                                    <input type="password" id="rePass" name="rePass" required>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <input type="radio" name="gender" value="male" id="male" checked>
+                                </td>
+                                <td>
+                                    <label for="male">Male</label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="radio" name="gender" value="female" id="female">
+                                </td>
+                                <td>
+                                    <label for="female">Female</label>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <br>
+                    <br>
+                    <br>
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <input type="checkbox" name="degree" value="student" id="student">
+                                </td>
+                                <td>
+                                    <label for="student">Student</label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="checkbox" name="degree" value="graduated" id="graduated" checked>
+                                </td>
+                                <td>
+                                    <label for="graduated">Graduated</label>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <br>
+                    <br>
+                    <select name="college">
+                        <optgroup label="Group 1">
+                            <option value="Computer science">Computer science</option>
+                        </optgroup>
+                        <optgroup label="Group 2">
+                            <option value="Engineering">Engineering</option>
+                            <option value="Physical Education">Physical Education</option>
+                        </optgroup>
+                        <optgroup label="Group 3" disabled>
+                            <option value="Commerce">Commerce</option>
+                            <option value="Law">Law</option>
+                            <option value="Arts">Arts</option>
+                        </optgroup>
+                    </select>
+                    <br>
+                    <input type="image" src="images/images.jfif" width="80" >   
+                </form>
+            </fieldset>
+    </body>
+</html>
